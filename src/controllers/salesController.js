@@ -1,5 +1,5 @@
-const Product = require('../models/Product');
-const Sale = require('../models/Sale');
+import Product from '../models/Product.js';
+import Sale from '../models/Sale.js';
 
 const createSale = async (req, res) => {
     const { items, note, user } = req.body;
@@ -159,8 +159,7 @@ const deleteSale = async (req, res) => {
     }
 };
 
-
-module.exports = {
+export {
     createSale,
     getSales,
     getSaleById,

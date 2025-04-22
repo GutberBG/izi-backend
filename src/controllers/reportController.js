@@ -1,6 +1,5 @@
-const Sale = require('../models/Sale');
-const ReportSale = require('../models/Report');
-
+import Sale from '../models/Sale.js';
+import ReportSale from '../models/Report.js';
 
 const createReport = async (req, res) => {
     const { startDate, endDate } = req.body;
@@ -156,8 +155,8 @@ const createReport = async (req, res) => {
       res.status(500).json({ message: 'Error deleting report', error });
     }
   };
-  
-module.exports = {
+
+export {
     createReport,
     getReports,
     getReportById,

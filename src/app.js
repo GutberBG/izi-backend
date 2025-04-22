@@ -1,8 +1,9 @@
-const express = require('express');
-const cors = require('cors');
-const productRoutes = require('./routes/product.routes');
-const saleRoutes = require('./routes/sale.route');
-const reportRoutes = require('./routes/report.routes');
+import express from 'express';
+import cors from 'cors';
+import productRoutes from './routes/product.routes.js';
+import saleRoutes from './routes/sale.route.js';
+import reportRoutes from './routes/report.routes.js';
+
 
 const app = express();
 
@@ -17,4 +18,4 @@ app.use('/api/products', productRoutes);
 app.use('/api/sales', saleRoutes);
 app.use('/api/reports', reportRoutes);
 
-module.exports = app;
+export default app;

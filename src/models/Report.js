@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const reportSaleSchema = new mongoose.Schema({
     startDate: { type: Date, required: true },
@@ -18,4 +18,4 @@ const reportSaleSchema = new mongoose.Schema({
     timestamps: true,
 });
 
-module.exports = mongoose.model('ReportSale', reportSaleSchema);
+export default mongoose.model('ReportSale', reportSaleSchema);
