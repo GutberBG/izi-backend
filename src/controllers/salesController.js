@@ -1,5 +1,5 @@
-const Product = require('../models/Product'); // Modelo de Producto
-const Sale = require('../models/Sale'); // Modelo de Venta
+const Product = require('../models/Product');
+const Sale = require('../models/Sale');
 
 const createSale = async (req, res) => {
     const { items, note, user } = req.body;
