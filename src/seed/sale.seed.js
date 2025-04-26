@@ -36,6 +36,7 @@ export default [
     ],
     total: 86,
     note: "Venta de productos frescos",
+    date: new Date('2025-04-21T10:00:00Z'),
   },
   {
     items: [
@@ -44,6 +45,7 @@ export default [
     ],
     total: 150,
     note: "Venta de electrónicos y accesorios",
+    date: new Date('2025-04-23T10:00:00Z'),
   },
   {
     items: [
@@ -52,6 +54,7 @@ export default [
     ],
     total: 120,
     note: "Venta de productos de limpieza",
+    date: new Date('2025-04-24T10:00:00Z'),
   },
   {
     items: [
@@ -60,6 +63,7 @@ export default [
     ],
     total: 180,
     note: "Venta de ropa y accesorios",
+    date: new Date('2025-04-25T10:00:00Z'),
   },
   {
     items: [
@@ -68,6 +72,7 @@ export default [
     ],
     total: 246,
     note: "Venta de artículos de hogar",
+    date: new Date('2025-04-24T10:00:00Z'),
   },
   {
     items: [
@@ -76,6 +81,7 @@ export default [
     ],
     total: 220,
     note: "Venta de artículos de oficina",
+    date: new Date('2025-04-23T10:00:00Z'),
   },
   {
     items: [
@@ -84,6 +90,7 @@ export default [
     ],
     total: 68,
     note: "Venta de artículos varios",
+    date: new Date('2025-04-22T10:00:00Z'),
   },
   // Continúa agregando las ventas con combinaciones de productos
 ];
